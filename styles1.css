@@ -53,23 +53,26 @@ li a:active {
 
 
 .flex-container{
-    display: inline-flex;
+    display: flex;
     display: -webkit-flex;               
-    width: 750px;
+    width: 70%;
     align-items: baseline;
-    height: 400px;
+    height: 420px;
     border: 2px solid black;
     margin: 0 auto;
-    margin-top: 110px;
-            
+    margin-top: 60px;
+    padding:5px;
+    border-collapse: separate;
+    border-spacing: 10px 50px;        
 }
 
 .flex1{
     width: 200px;
     height: 200px;
     border: 1px solid orange;
-    float: left;
-            
+    display:inline-block;
+    float:left;
+    margin-bottom: 5px;  
 }
 
 
@@ -78,7 +81,8 @@ li a:active {
     height: 200px;
     align-items: baseline;
     border: 1px solid pink;
-    float: left;
+    display:inline-block;
+    float:left;
 }
 
 .flex3{
@@ -86,17 +90,18 @@ li a:active {
     height: 200px;
     align-items: baseline;
     border: 1px solid purple;
+    display:inline-block;
+    float:right;
+    margin-bottom: 5px;
 }
-
 
 .flex4{
     width: 200px;
     height: 200px;
-    align-items: baseline;
     border: 1px solid green;
+    display:inline-block;
+    float:right;
 }
-
-
 
 
 
