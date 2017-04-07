@@ -31,6 +31,10 @@ li a:active {
     color: yellow;
 }
 
+.highlighted {
+    color:yellow;
+}
+
 .container {
 	margin: 0 auto 20px auto;
 	padding: 0 40px;
