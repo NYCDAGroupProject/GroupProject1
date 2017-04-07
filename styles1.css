@@ -68,4 +68,23 @@ li a:active {
     background-color: pink;
     font-style: bold;
     border-radius: 15%;
+}
+
+@media all and (max-width: 1024px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media all and (max-width: 568px) {
+    .container {
+        padding: 0 20px;
+    }
+}
 
