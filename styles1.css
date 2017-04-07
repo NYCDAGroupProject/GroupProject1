@@ -41,3 +41,58 @@ li a:hover {
     height: 50px;
 }
 
+
+
+.flex-container{
+    display: inline-flex;
+    display: -webkit-flex;               
+    width: 900px;
+    align-items: baseline;
+    height: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 110px;
+            
+}
+
+.flex1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid orange;
+    float: left;
+            
+}
+
+
+.flex2{
+    width: 200px;
+    height: 200px;
+    align-items: baseline;
+    border: 1px solid pink;
+    float: left;
+}
+
+.flex3{
+    width: 200px;
+    height: 200px;
+    align-items: baseline;
+    border: 1px solid purple;
+}
+
+
+.flex4{
+    width: 200px;
+    height: 200px;
+    align-items: baseline;
+    border: 1px solid green;
+}
+
+
+
+
+
+
+
+
+
+
