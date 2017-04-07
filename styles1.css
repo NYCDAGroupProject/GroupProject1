@@ -35,6 +35,10 @@ li a:active {
     color: yellow;
 }
  
+ body {
+    background-color: lightgray;
+ }
+
 .highlighted {
     color:yellow;
 }
