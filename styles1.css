@@ -180,6 +180,13 @@ display: block;
 
 
 }
+.imageThumbnails {
+
+width:100% ;
+height:100%;
+margin: 0 auto;
+
+}
 
 .clear-floated    { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
 
