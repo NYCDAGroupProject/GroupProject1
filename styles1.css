@@ -131,25 +131,53 @@ li a:active {
 }
 
 .grid-item {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     /*float:left;*/
     padding: 5px;
     margin: 5px;
+    margin-top: 60px;
     display: inline-block;
     background-size: 100% 100%;
-    border-radius: 50%
+    border-radius: 15%
 }
 
-.grid-item-a {
-    background-image: url("pic1.jpg");
+/*.grid-item-a {
+    background-image: url("a.jpg");
+}
+
+.grid-item-b {
+    background-image: url("b.jpg");
+}
+
+.grid-item-c {
+    background-image: url("c.jpg");
+}
+
+.grid-item-d {
+    background-image: url("c.jpg");
+}*/
+
+.mission {
+    display: inline-block;
+    float:left;
+    margin-top: 20px;
+    width:45%;
+    padding: 5px;
+}
+
+.header {
+    margin: 20px;
+}
+
+.header2{
+    float:left;
 }
 
 .clear {
     clear:both;
     border:none;
 }
-=======
 .float-left-area  {
           width: 70%;
           float: left;
@@ -176,7 +204,6 @@ li a:active {
           }
 
 .clear-floated    { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
->>>>>>> e1768d4619c0201fe6dac7cc50cf77ada71438f1
 
 @media all and (max-width: 1024px) {
     .container {
