@@ -58,8 +58,6 @@ li a:active {
 
 }
 
-
-
 .flex-container{
     display: flex;
     display: -webkit-flex;               
@@ -111,14 +109,7 @@ li a:active {
     float:right;
 }
 
-
-
-
-
-
-
-
-.footer{
+.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -132,6 +123,32 @@ li a:active {
     background-color: pink;
     font-style: bold;
     border-radius: 15%;
+}
+
+.container-grid {
+    text-align: center:;
+    display: :block;
+    
+}
+
+.grid-item {
+    width: 350px;
+    height: 350px;
+    /*float:left;*/
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    background-size: 100% 100%;
+    border-radius: 50%
+}
+
+.grid-item-a {
+    background-image: url("pic1.jpg");
+}
+
+.clear {
+    clear:both;
+    border:none;
 }
 
 @media all and (max-width: 1024px) {
