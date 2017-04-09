@@ -173,7 +173,13 @@ li a:active {
           padding: 5px 5px 5px 5px;
           border: #999999 1px solid;
           min-height: 60px;
+          display: inline-block;
           }
+.blockingforLinks {
+display: block;
+
+
+}
 
 .clear-floated    { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
 
