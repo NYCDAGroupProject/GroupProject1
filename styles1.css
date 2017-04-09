@@ -133,7 +133,7 @@ li a:active {
 .grid-item {
     width: 200px;
     height: 200px;
-    /*float:left;*/
+    float: right;
     padding: 5px;
     margin: 5px;
     margin-top: 60px;
@@ -142,7 +142,7 @@ li a:active {
     border-radius: 15%
 }
 
-/*.grid-item-a {
+.grid-item-a {
     background-image: url("a.jpg");
 }
 
@@ -156,7 +156,7 @@ li a:active {
 
 .grid-item-d {
     background-image: url("c.jpg");
-}*/
+}
 
 .mission {
     display: inline-block;
@@ -171,7 +171,12 @@ li a:active {
 }
 
 .header2{
-    float:left;
+    margin-top: 60px;
+    text-align: none;
+    position: top-left;
+    color: red;
+    width: 45%;
+    border-bottom: 2px solid black;
 }
 
 .clear {
