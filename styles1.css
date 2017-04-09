@@ -108,7 +108,6 @@ li a:active {
     display:inline-block;
     float:right;
 }
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -150,6 +149,34 @@ li a:active {
     clear:both;
     border:none;
 }
+=======
+.float-left-area  {
+          width: 70%;
+          float: left;
+          margin-top: 50px;
+          }
+.float-right-area {
+          width: 30%;
+          float: right;
+          margin-top: 50px;
+          }
+
+.inner-left   {
+          padding: 5px 5px 5px 5px;
+          margin-right: 10px;
+          border: #999999 1px solid;
+          min-height: 60px;
+          }
+
+.inner-right      {
+          font-size: 11px;
+          padding: 5px 5px 5px 5px;
+          border: #999999 1px solid;
+          min-height: 60px;
+          }
+
+.clear-floated    { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+>>>>>>> e1768d4619c0201fe6dac7cc50cf77ada71438f1
 
 @media all and (max-width: 1024px) {
     .container {
