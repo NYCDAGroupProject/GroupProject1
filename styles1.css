@@ -13,7 +13,7 @@ li {
     float: left;
 }
 
-.menu li: last-of-type{
+.menu li:last-of-type{
     float:right;
 }
 
@@ -27,11 +27,11 @@ li a {
     transition: .3s background-color;
 }
 
-li a:hover{
+li a:hover {
     background-color: #111;
 }
 
-li a:active{
+li a:active {
     color: yellow;
 }
  
@@ -45,10 +45,10 @@ li a:active{
     color:yellow;
 }
 
-.container{
-	margin: 0 auto 20px auto;
-	padding: 0 40px;
-	max-width: 1200px;
+.container {
+    margin: 0 auto 20px auto;
+    padding: 0 40px;
+    max-width: 1200px;
 }
 
 .menu {
@@ -78,8 +78,10 @@ li a:active{
     width: 200px;
     height: 200px;
     border: 1px solid orange;
-    display: flex;
+    display:inline-block;
+    float:left;
     margin-bottom: 5px;
+    background-image: url("picfiles/toolbox.jpg");  
 }
 
 
@@ -88,8 +90,8 @@ li a:active{
     height: 200px;
     align-items: baseline;
     border: 1px solid pink;
-    display: flex;
-    margin: 5px;
+    display:inline-block;
+    float:left;
 }
 
 .flex3 {
@@ -97,48 +99,17 @@ li a:active{
     height: 200px;
     align-items: baseline;
     border: 1px solid purple;
-    display: flex;
+    display:inline-block;
+    float:right;
     margin-bottom: 5px;
-    float: right;
-    margin: 5px;
 }
 
 .flex4 {
     width: 200px;
     height: 200px;
     border: 1px solid green;
-    display: flex;
-    float: right;
-    margin: 5px;
-}
-
-
-.dubb{
-    object-position: 0% 0%;
-}
-.dub1{
-float: 
-}
-
-.dub2{
-    float: right;
-        
-
-}
-.donna{
-position: bottom;
-position: fixed;
-bottom: 0;
-right: 11em;
-min-height: 14em;
-width: 50%;
-height: 20%;
-border: 3px solid #73AD21;
-margin-bottom: 2em;
-float: bottom;
-font-size: 20px;
-text-align: center;
-
+    display:inline-block;
+    float:right;
 }
 
 .footer {
@@ -165,9 +136,6 @@ text-align: center;
 }
 
 .grid-item {
-    width: 350px;
-    height: 350px;
-    /*float:left;*/
     width: 275px;
     height: 275px;
     /*float: right;*/
@@ -175,11 +143,6 @@ text-align: center;
     margin: 5px;
     display: inline-block;
     background-size: 100% 100%;
-    border-radius: 15%
-}
-
-.grid-item-a {
-    background-image: url("pic1.jpg");
     border-radius: 15%
 }
 
@@ -251,39 +214,6 @@ text-align: center;
 
 }
 
-<<<<<<< HEAD
-.inner-right      {
-          font-size: 11px;
-          padding: 5px 5px 5px 5px;
-          border: #999999 1px solid;
-          min-height: 60px;
-          position: fixed;
-          display: inline-block;
-          }
-.blockingforLinks {
-display: block;
-
-.float-left-area {
-    width: 70%;
-    float: left;
-    margin-top: 50px;
-    margin-bottom: 50px;
-        
-}
-
-.float-right-area {
-    width: 30%;
-    float: right;
-    margin-top: 50px;
-
-}
-
-.inner-left {
-    padding: 5px 5px 5px 5px;
-    margin-right: 10px;
-    border: #999999 1px solid;
-    min-height: 60px;
-        
 .inner-right {
     font-size: 11px;
     padding: 5px 5px 5px 5px;
@@ -306,8 +236,6 @@ display: block;
     min-height: 60px;
 }
 
-          }
-.inner-right {
 .inner-right      {
     font-size: 11px;
     padding: 5px 5px 5px 5px;
@@ -318,6 +246,7 @@ display: block;
 }
 
 .imageThumbnails {
+
     width:100% ;
     height: 125px;
     margin: 0 auto;
@@ -335,27 +264,13 @@ display: block;
   
 }
 
-
-}
-
-.clear-floated { 
+.clear-floated    { 
     clear: both; 
     height: 1px; 
     font-size: 1px; 
     line-height: 1px; 
     padding: 0; 
     margin: 0; 
-
-}
-
-.banner {
-    position: fixed;
-    width: 100%;
-    background-color: green;
-    height: 50px;
-    text-align: center;
-  
-}
 }
 
 
