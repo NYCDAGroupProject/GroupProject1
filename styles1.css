@@ -251,7 +251,7 @@ li a:active {
 
 .imageThumbnails {
     width:100% ;
-    height: 175px;
+    height: 125px;
     margin: 0 auto;
 
 }
@@ -266,7 +266,7 @@ li a:active {
 
 }
 
-.banner {
+ .banner {
     position: fixed;
     width: 100%;
     background-color: green;
