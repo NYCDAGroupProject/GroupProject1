@@ -358,29 +358,18 @@ display: block;
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> q2
 width:100% ;
 height: 175px;
 margin: 0 auto;
-
-}
-
-.clear-floated    { 
-    clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
-.clear-floated    { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+=======
     width:100% ;
-    height: 175px;
+    height: 125px;
     margin: 0 auto;
 
-}
 
-.clear-floated { 
-    clear: both; 
-    height: 1px; 
-    font-size: 1px; 
-    line-height: 1px; 
-    padding: 0; 
-    margin: 0; 
+>>>>>>> 2ef8c34f194003a854316091fb8246f7a0e6e084
 
 }
 
@@ -392,6 +381,42 @@ margin: 0 auto;
     text-align: center;
   
 }
+
+.clear-floated    { 
+<<<<<<< HEAD
+    clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+.clear-floated    { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+    width:100% ;
+    height: 175px;
+    margin: 0 auto;
+
+}
+
+.clear-floated { 
+=======
+>>>>>>> 2ef8c34f194003a854316091fb8246f7a0e6e084
+    clear: both; 
+    height: 1px; 
+    font-size: 1px; 
+    line-height: 1px; 
+    padding: 0; 
+    margin: 0; 
+<<<<<<< HEAD
+
+}
+
+.banner {
+    position: fixed;
+    width: 100%;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+  
+}
+=======
+}
+
+>>>>>>> 2ef8c34f194003a854316091fb8246f7a0e6e084
 
 @media all and (max-width: 1024px) {
     .container {
