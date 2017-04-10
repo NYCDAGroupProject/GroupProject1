@@ -182,43 +182,19 @@ li a:active {
     border:none;
 }
 
-.float-left-area  {
-
-          width: 70%;
-          float: left;
-          margin-top: 50px;
-        margin-bottom: 50px;
+.float-left-area {
+    width: 70%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
         
-          }
-.float-right-area {
-          width: 30%;
-          float: right;
-          margin-top: 50px;
-
-
-          }
-
-.inner-left   {
-          padding: 5px 5px 5px 5px;
-          margin-right: 10px;
-          border: #999999 1px solid;
-          min-height: 60px;
-        
-          }
-
-.inner-right      {
-          font-size: 11px;
-          padding: 5px 5px 5px 5px;
-          border: #999999 1px solid;
-          min-height: 60px;
-          position: fixed;
 }
-
 
 .float-right-area {
     width: 30%;
     float: right;
     margin-top: 50px;
+
 }
 
 .inner-left {
@@ -226,28 +202,67 @@ li a:active {
     margin-right: 10px;
     border: #999999 1px solid;
     min-height: 60px;
+        
 }
-.inner-right      {
-          font-size: 11px;
-          padding: 5px 5px 5px 5px;
-          border: #999999 1px solid;
-          min-height: 60px;
-          position: fixed;
 
-          }
+.inner-right {
+    font-size: 11px;
+    padding: 5px 5px 5px 5px;
+    border: #999999 1px solid;
+    min-height: 60px;
+    position: fixed;
 
+}
+
+.float-right-area {
+    width: 30%;
+    float: right;
+    margin-top: 50px;
+
+}
+
+.inner-left {
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+    border: #999999 1px solid;
+    min-height: 60px;
+
+}
+
+.inner-right {
+    font-size: 11px;
+    padding: 5px 5px 5px 5px;
+    border: #999999 1px solid;
+    min-height: 60px;
+    position: fixed;
+
+}
 
 .imageThumbnails {
-
-width:100% ;
-height: 175px;
-margin: 0 auto;
+    width:100% ;
+    height: 175px;
+    margin: 0 auto;
 
 }
 
+.clear-floated { 
+    clear: both; 
+    height: 1px; 
+    font-size: 1px; 
+    line-height: 1px; 
+    padding: 0; 
+    margin: 0; 
 
-.clear-floated    { 
-    clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+}
+
+.banner {
+    position: fixed;
+    width: 100%;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+  
+}
 
 @media all and (max-width: 1024px) {
     .container {
