@@ -37,6 +37,8 @@ li a:active {
  
  body {
     background-color: lightgray;
+    margin-top: 50px;
+    margin-bottom: 50px;
  }
 
 .highlighted {
@@ -163,14 +165,14 @@ li a:active {
 }
 
 .header2{
-    margin-top: 60px;
+    margin-top: 15px;
     margin-left: 20px;
     text-align: none;
     position: top-left;
     color: black;
     width: 45%;
     border-bottom: 2px solid gray;
-    display: block;
+    display: inline-block;
     padding-top: 5px;
 }
 
