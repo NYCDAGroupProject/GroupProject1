@@ -57,6 +57,7 @@ li a:active {
     width: 100%;
     background-color: #333;
     height: 50px;
+    left: 0;
 
 }
 
@@ -153,6 +154,7 @@ flex-wrap: wrap;
     background-color: #333;
     height: 50px;
     width: 100%;
+    left: 0;
 }
 
 .donate {
@@ -194,6 +196,20 @@ flex-wrap: wrap;
     background-image: url("b.jpg");
     margin: 40px;
 }
+
+.large-image {
+    background-image: url("z.jpg");
+    background-image: cover;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+/*.large-image2 {
+    background-image: url("y.jpg");
+    background-image: cover;
+    height: 400px;
+    background-size: 100% 100%;
+}*/
 
 .mission {
     display: inline-block;
@@ -284,9 +300,6 @@ flex-wrap: wrap;
     width:100% ;
     height: 125px;
     margin: 0 auto;
-
-
-
 }
 
 .banner {
@@ -296,6 +309,21 @@ flex-wrap: wrap;
     height: 50px;
     text-align: center;
   
+}
+
+.banner1 {
+    position: fixed;
+    width: 100%;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    left: 0;
+  
+}
+
+.content {
+    max-width: 799px;
+    margin: 0 auto;
 }
 
 .clear-floated    { 
@@ -375,5 +403,6 @@ flex-wrap: wrap;
         height: 125px;
         margin-top: 50px;
     }
+
 }
 
