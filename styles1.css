@@ -135,8 +135,8 @@ li a:active {
 }
 
 .grid-item {
-    width: 350px;
-    height: 350px;
+    width: 275px;
+    height: 275px;
     /*float: right;*/
     padding: 5px;
     margin: 5px;
@@ -147,6 +147,17 @@ li a:active {
 
 .grid-item-a {
     background-image: url("d.jpg");
+    margin: 40px;
+}
+
+.grid-item-b {
+    background-image: url("a.jpg");
+    margin: 40px;
+}
+
+.grid-item-c {
+    background-image: url("b.jpg");
+    margin: 40px;
 }
 
 .mission {
@@ -166,7 +177,8 @@ li a:active {
 
 .header2{
     margin-top: 15px;
-    margin-left: 20px;
+    margin-bottom: 15px;
+    /*margin-left: 20px;*/
     text-align: none;
     position: top-left;
     color: black;
@@ -232,8 +244,21 @@ li a:active {
     }
 
     .grid-item-a{
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
+        margin-top: 50px;
+    }
+
+     .grid-item-b{
+        width: 220px;
+        height: 220px;
+        margin-top: 50px;
+    }
+
+     .grid-item-c{
+        width: 220px;
+        height: 220px;
+        margin-top: 50px;
     }
 }
 
@@ -245,6 +270,18 @@ li a:active {
     .grid-item-a{
         width: 150px;
         height: 150px;
+    }
+
+     .grid-item-b{
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+    }
+
+     .grid-item-c{
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
     }
 }
 
