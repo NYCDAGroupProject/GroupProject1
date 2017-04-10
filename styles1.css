@@ -58,7 +58,7 @@ li a:active {
 
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     display: -webkit-flex;               
     width: 70%;
@@ -72,7 +72,7 @@ li a:active {
     border-spacing: 10px 50px;        
 }
 
-.flex1{
+.flex1 {
     width: 200px;
     height: 200px;
     border: 1px solid orange;
@@ -83,7 +83,7 @@ li a:active {
 }
 
 
-.flex2{
+.flex2 {
     width: 200px;
     height: 200px;
     align-items: baseline;
@@ -92,7 +92,7 @@ li a:active {
     float:left;
 }
 
-.flex3{
+.flex3 {
     width: 200px;
     height: 200px;
     align-items: baseline;
@@ -102,13 +102,14 @@ li a:active {
     margin-bottom: 5px;
 }
 
-.flex4{
+.flex4 {
     width: 200px;
     height: 200px;
     border: 1px solid green;
     display:inline-block;
     float:right;
 }
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -132,39 +133,29 @@ li a:active {
 }
 
 .grid-item {
-    width: 200px;
-    height: 200px;
-    float: right;
+    width: 350px;
+    height: 350px;
+    /*float: right;*/
     padding: 5px;
     margin: 5px;
-    margin-top: 60px;
     display: inline-block;
     background-size: 100% 100%;
     border-radius: 15%
 }
 
 .grid-item-a {
-    background-image: url("a.jpg");
-}
-
-.grid-item-b {
-    background-image: url("b.jpg");
-}
-
-.grid-item-c {
-    background-image: url("c.jpg");
-}
-
-.grid-item-d {
-    background-image: url("c.jpg");
+    background-image: url("d.jpg");
 }
 
 .mission {
     display: inline-block;
     float:left;
-    margin-top: 20px;
+    margin: 20px;
     width:45%;
     padding: 5px;
+    /*overflow-y: auto;
+    height: 150px;*/
+    /*background-color: lightyellow;*/
 }
 
 .header {
@@ -173,11 +164,14 @@ li a:active {
 
 .header2{
     margin-top: 60px;
+    margin-left: 20px;
     text-align: none;
     position: top-left;
-    color: red;
+    color: black;
     width: 45%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid gray;
+    display: block;
+    padding-top: 5px;
 }
 
 .clear {
@@ -234,11 +228,21 @@ li a:active {
     .container {
         padding: 0 20px;
     }
+
+    .grid-item-a{
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media all and (max-width: 568px) {
     .container {
         padding: 0 20px;
+    }
+
+    .grid-item-a{
+        width: 150px;
+        height: 150px;
     }
 }
 
