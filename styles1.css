@@ -194,35 +194,32 @@ li a:active {
 }
 
 .float-left-area  {
+    width: 70%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-          width: 70%;
-          float: left;
-          margin-top: 50px;
-        margin-bottom: 50px;
-        
-          }
 .float-right-area {
-          width: 30%;
-          float: right;
-          margin-top: 50px;
+    width: 30%;
+    float: right;
+    margin-top: 50px;
+}
 
+.inner-left {
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+    border: #999999 1px solid;
+    min-height: 60px;
 
-          }
+}
 
-.inner-left   {
-          padding: 5px 5px 5px 5px;
-          margin-right: 10px;
-          border: #999999 1px solid;
-          min-height: 60px;
-        
-          }
-
-.inner-right      {
-          font-size: 11px;
-          padding: 5px 5px 5px 5px;
-          border: #999999 1px solid;
-          min-height: 60px;
-          position: fixed;
+.inner-right {
+    font-size: 11px;
+    padding: 5px 5px 5px 5px;
+    border: #999999 1px solid;
+    min-height: 60px;
+    position: fixed;
 }
 
 
@@ -238,15 +235,15 @@ li a:active {
     border: #999999 1px solid;
     min-height: 60px;
 }
+
 .inner-right      {
-          font-size: 11px;
-          padding: 5px 5px 5px 5px;
-          border: #999999 1px solid;
-          min-height: 60px;
-          position: fixed;
+    font-size: 11px;
+    padding: 5px 5px 5px 5px;
+    border: #999999 1px solid;
+    min-height: 60px;
+    position: fixed;
 
-          }
-
+}
 
 .imageThumbnails {
 
@@ -258,7 +255,6 @@ li a:active {
 
 }
 
-
 .banner {
     position: fixed;
     width: 100%;
@@ -268,14 +264,14 @@ li a:active {
   
 }
 
-
 .clear-floated    { 
     clear: both; 
     height: 1px; 
     font-size: 1px; 
     line-height: 1px; 
     padding: 0; 
-    margin: 0; }
+    margin: 0; 
+}
 
 
 @media all and (max-width: 1024px) {
