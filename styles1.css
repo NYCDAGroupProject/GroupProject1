@@ -43,7 +43,7 @@ li a:active {
     color:yellow;
 }
 
-.container {
+.container1{
 	margin: 0 auto 20px auto;
 	padding: 0 40px;
 	max-width: 1200px;
@@ -61,12 +61,12 @@ li a:active {
 .flex-container{
     display: flex;
     display: -webkit-flex;               
-    width: 70%;
+    width: 90%;
     align-items: baseline;
-    height: 420px;
+    height: 460px;
     border: 2px solid black;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 80px;
     padding:5px;
     border-collapse: separate;
     border-spacing: 10px 50px;        
@@ -77,9 +77,8 @@ li a:active {
     height: 200px;
     border: 1px solid orange;
     display:inline-block;
-    float:left;
     margin-bottom: 5px;
-    background-image: url("picfiles/toolbox.jpg");  
+    float: left;
 }
 
 
@@ -89,7 +88,6 @@ li a:active {
     align-items: baseline;
     border: 1px solid pink;
     display:inline-block;
-    float:left;
 }
 
 .flex3{
@@ -98,8 +96,8 @@ li a:active {
     align-items: baseline;
     border: 1px solid purple;
     display:inline-block;
-    float:right;
     margin-bottom: 5px;
+    float: right;
 }
 
 .flex4{
@@ -107,8 +105,38 @@ li a:active {
     height: 200px;
     border: 1px solid green;
     display:inline-block;
-    float:right;
+    float: right;
 }
+
+
+.dubb{
+    object-position: 0% 0%;
+}
+.dub1{
+float: 
+}
+
+.dub2{
+    float: right;
+        
+
+}
+.donna{
+position: bottom;
+position: fixed;
+bottom: 0;
+right: 11em;
+min-height: 14em;
+width: 50%;
+height: 20%;
+border: 3px solid #73AD21;
+margin-bottom: 2em;
+float: bottom;
+font-size: 20px;
+text-align: center;
+
+}
+
 .footer {
     position: fixed;
     bottom: 0;
