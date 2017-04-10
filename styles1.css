@@ -178,7 +178,7 @@ li a:active {
 
 .header2{
     margin-top: 15px;
-    margin-left: 15px;
+    margin-bottom: 15px;
     text-align: none;
     position: top-left;
     color: black;
@@ -264,6 +264,23 @@ margin: 0 auto;
     .container {
         padding: 0 20px;
     }
+
+    .grid-item-a{
+        width: 300px;
+        height: 300px;
+    }
+
+    .grid-item-b{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+     .grid-item-c{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -272,19 +289,19 @@ margin: 0 auto;
     }
 
     .grid-item-a{
-        width: 250px;
-        height: 250px;
+        width: 210px;
+        height: 210px;
     }
 
     .grid-item-b{
-        width: 220px;
-        height: 220px;
+        width: 210px;
+        height: 210px;
         margin-top: 50px;
     }
 
      .grid-item-c{
-        width: 220px;
-        height: 220px;
+        width: 210px;
+        height: 210px;
         margin-top: 50px;
     }
 }
@@ -295,19 +312,19 @@ margin: 0 auto;
     }
 
     .grid-item-a{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
 
     .grid-item-b{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
         margin-top: 50px;
     }
 
      .grid-item-c{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
         margin-top: 50px;
     }
 }
