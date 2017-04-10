@@ -64,6 +64,8 @@ li a:active {
     display: flex;
     display: -webkit-flex;               
     width: 70%;
+    flex-wrap: wrap;   
+    width: 90%;
     align-items: baseline;
     height: 420px;
     border: 2px solid black;
@@ -81,7 +83,6 @@ li a:active {
     display:inline-block;
     float:left;
     margin-bottom: 5px;
-    background-image: url("picfiles/toolbox.jpg");  
 }
 
 
@@ -108,8 +109,41 @@ li a:active {
     width: 200px;
     height: 200px;
     border: 1px solid green;
-    display:inline-block;
-    float:right;
+    display: flex;
+    float: right;
+    margin: 5px;
+}
+
+
+.dubb{
+    object-position: 0% 0%;
+}
+.dub1{
+
+float: 
+}
+
+.dub2{
+    float: right;
+        
+
+}
+.donna{
+position: bottom;
+position: fixed;
+bottom: 0;
+right: 11em;
+min-height: 14em;
+width: 50%;
+height: 20%;
+border: 3px solid #73AD21;
+margin-bottom: 2em;
+float: bottom;
+font-size: 20px;
+text-align: center;
+border-bottom: 10px;
+display: inline-flex;
+flex-wrap: wrap;
 }
 
 .footer {
