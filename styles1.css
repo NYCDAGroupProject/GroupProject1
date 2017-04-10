@@ -63,6 +63,7 @@ li a:active {
 .flex-container{
     display: flex;
     display: -webkit-flex;               
+    flex-wrap: wrap;   
     width: 90%;
     align-items: baseline;
     height: 460px;
@@ -118,6 +119,7 @@ li a:active {
     object-position: 0% 0%;
 }
 .dub1{
+
 float: 
 }
 
@@ -139,7 +141,9 @@ margin-bottom: 2em;
 float: bottom;
 font-size: 20px;
 text-align: center;
-
+border-bottom: 10px;
+display: inline-flex;
+flex-wrap: wrap;
 }
 
 .footer {
