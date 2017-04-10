@@ -45,7 +45,7 @@ li a:active {
     color:yellow;
 }
 
-.container1{
+.container{
 	margin: 0 auto 20px auto;
 	padding: 0 40px;
 	max-width: 1200px;
@@ -78,7 +78,7 @@ li a:active {
     width: 200px;
     height: 200px;
     border: 1px solid orange;
-    display:inline-block;
+    display: flex;
     margin-bottom: 5px;
     float: left;
 }
@@ -89,7 +89,8 @@ li a:active {
     height: 200px;
     align-items: baseline;
     border: 1px solid pink;
-    display:inline-block;
+    display: flex;
+    margin: 5px;
 }
 
 .flex3 {
@@ -97,17 +98,19 @@ li a:active {
     height: 200px;
     align-items: baseline;
     border: 1px solid purple;
-    display:inline-block;
+    display: flex;
     margin-bottom: 5px;
     float: right;
+    margin: 5px;
 }
 
 .flex4 {
     width: 200px;
     height: 200px;
     border: 1px solid green;
-    display:inline-block;
+    display: flex;
     float: right;
+    margin: 5px;
 }
 
 
